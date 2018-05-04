@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nfe.StateTax.Domain", "src\Nfe.StateTax.Domain\Nfe.StateTax.Domain.csproj", "{F87F60AB-486D-4088-8A98-F94294697708}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A3D5EC41-5D98-4454-80D5-F7691835DC43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nfe.Tests", "test\Nfe.Tests\Nfe.Tests.csproj", "{5309347F-60FC-4BEC-B733-314D0D21627E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F87F60AB-486D-4088-8A98-F94294697708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87F60AB-486D-4088-8A98-F94294697708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87F60AB-486D-4088-8A98-F94294697708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87F60AB-486D-4088-8A98-F94294697708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5309347F-60FC-4BEC-B733-314D0D21627E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5309347F-60FC-4BEC-B733-314D0D21627E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5309347F-60FC-4BEC-B733-314D0D21627E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5309347F-60FC-4BEC-B733-314D0D21627E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F87F60AB-486D-4088-8A98-F94294697708} = {A3D5EC41-5D98-4454-80D5-F7691835DC43}
+		{5309347F-60FC-4BEC-B733-314D0D21627E} = {A3D5EC41-5D98-4454-80D5-F7691835DC43}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7EA2149-DFB4-402A-9CCA-9D72D156CBAD}
+	EndGlobalSection
+EndGlobal
