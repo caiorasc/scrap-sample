@@ -9,6 +9,7 @@ namespace Nfe.StateTax.Domain
     interface IScrap
     {
         Task<string> PreScrap();
-        Task<string> Scrap(long cnpj);
+        //Task<string> Scrap(long cnpj);
+        Task<InfoCnpj> Scrap(long cnpj);
     }
 }
